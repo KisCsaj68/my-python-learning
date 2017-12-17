@@ -10,7 +10,7 @@ while not result and hits != 3:
   elif hits < 2 and A != number:  
     print('Nem talált! Csak ' , number-A, ' , amit tévedtél! van még 1 lehetőséged!', sep='')
   elif hits <= 3 and A != number:
-    print('Nem talált! Csak ' , number-A, ' , amit tévedtél! Nincs már lehetőséged! Sajnálom!',sep'')
+    print('Nem talált! Csak ' , number-A, ' , amit tévedtél! Nincs már lehetőséged! Sajnálom!',sep='')
   else:
     print('Gratulálok, eltaláltad!')
     result = True
