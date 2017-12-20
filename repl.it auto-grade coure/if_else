@@ -1,0 +1,70 @@
+#odd or even
+a = int(input())
+if a%2 > 0:
+  print("odd")
+else:
+  print("even")
+#min of 2 number
+a = int(input())
+b = int(input())
+if a<b:
+  print(a)
+else:
+  print(b)
+#sign function, For the given integer X print 1 if it's positive, -1 if it's negative, or 0 if it's equal to zero.
+X = int(input())
+if X < 0:
+  print(-1)
+elif X > 0:
+  print(1)
+else:
+  print(0)
+#Given an integer, print "YES" if it's a three-digit number and print "NO" otherwise.
+X = int(input())
+if 100<= X < 1000:
+  print ('YES')
+else:
+  print('NO')
+#Given two non-zero integers, print "YES" if exactly one of them is positive and print "NO" otherwise.
+a = int(input())
+b = int(input())
+if a > 0 and b > 0:
+  print('NO')
+elif a < 0  and b < 0:
+  print('NO')
+else:
+  print('YES')
+#ascending digits
+X = int(input())
+if X // 100 < ((X // 10)%10) and ((X // 10)%10) < X % 10:
+  print('YES')
+else:
+  print('NO')
+#four dig palindrome,Let's call an integer a palindrome if it remains the same after reading its digits from right to left. Given a four-digit integer, print "YES" if it's a palindrome and print "NO" otherwise. 
+  x = int(input())
+if x //1000 == x % 10 and ((x //100)%10) ==  ((x//10)%10):
+  print('YES')
+else:
+  print('NO')
+#min of 3 number
+x = int(input())
+y = int(input())
+z = int(input())
+if x < y and x < z:
+  print(x)
+elif y < x and y < z:
+  print(y)
+else:
+  print(z)
+#day in month
+a = int(input())
+if a==2:
+  print('28')
+elif a< 8 and a % 2 == 0:
+  print('30')
+elif a< 8 and a % 2 > 0:
+  print('31')
+elif a >=8 and a % 2 == 0:
+  print('31')
+else:
+  print('30') 
