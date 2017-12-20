@@ -1,3 +1,4 @@
 # my-python-learning
 My python learning exp.
-Solving problem from pythonidomar.wordpress.com
+Start from knowledge
+Solving problem from repl.it auto-grade course
